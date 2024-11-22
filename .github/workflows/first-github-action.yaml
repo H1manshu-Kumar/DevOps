@@ -1,7 +1,9 @@
 name: first github action
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ master ]
+    workflow_dispatch:
 
 jobs:
   print hello-world:
