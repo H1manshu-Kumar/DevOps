@@ -6,7 +6,7 @@ on:
     workflow_dispatch:
 
 jobs:
-  print hello-world:
+  PrintHelloWorld:
     runs-on: ubuntu-latest
 
     steps:
