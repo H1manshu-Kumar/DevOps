@@ -1,4 +1,4 @@
-name: first github action
+name: first github action - Say Hello
 
 on:
   push:
