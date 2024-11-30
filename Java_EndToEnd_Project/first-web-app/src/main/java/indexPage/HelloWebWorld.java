@@ -21,7 +21,6 @@ public class HelloWebWorld extends HttpServlet {
 	 */
 	public HelloWebWorld() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
@@ -30,7 +29,7 @@ public class HelloWebWorld extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
@@ -42,8 +41,7 @@ public class HelloWebWorld extends HttpServlet {
 	 *      response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+			throws ServletException, IOException {		
 		doGet(request, response);
 	}
 
