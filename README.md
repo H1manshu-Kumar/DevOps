@@ -1,1 +1,1 @@
-This repository is created to learn DevOps through hands-on practice. I will continuously add code that I've learned throughout my DevOps journey.
+I created this repository to practice DevOps through hands-on projects and will keep adding code as I learn and grow in my DevOps journey.
