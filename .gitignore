@@ -1,0 +1,24 @@
+# Eclipse-specific files
+/.metadata/
+/.settings/
+/.project
+.classpath
+
+# Maven-specific directories
+/target/
+/.m2/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive or generated files
+*.class
+*.war
+*.jar
