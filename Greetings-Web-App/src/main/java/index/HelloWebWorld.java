@@ -20,7 +20,7 @@ public class HelloWebWorld extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
-		pw.println("<h1>Hello Web World Greeting!!</h1>");
+		pw.println("<h1>Hello Web World Greeting 10 Dec !!</h1>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
