@@ -30,7 +30,7 @@ public class SayHi extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
-		pw.println("<h1>Hello Web World Greeting 13 Dec - deployment is successfull !!</h1>");
+		pw.println("<h1>Hello Web World Greeting 13 Dec - deployment is successfull Round 2 </h1>");
 	}
 
 	/**
