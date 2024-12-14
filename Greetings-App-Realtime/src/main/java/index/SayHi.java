@@ -1,3 +1,4 @@
+// The Greetings Web App is designed to provide users with customizable greeting messages.
 package index;
 
 import java.io.IOException;
