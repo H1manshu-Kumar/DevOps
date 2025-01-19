@@ -22,6 +22,7 @@ public class HelloWebWorld extends HttpServlet {
 
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
+  // Print message on Web Page
 		pw.println("<h1>Hello Web World!!</h1>");
 	}
 
