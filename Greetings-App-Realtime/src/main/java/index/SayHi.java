@@ -22,7 +22,7 @@ public class SayHi extends HttpServlet {
 			throws ServletException, IOException {
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
-		pw.println("<h1>Hello Web World </h1>");
+		pw.println("<h1>Hello Web World!! </h1>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
