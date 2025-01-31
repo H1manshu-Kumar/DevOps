@@ -35,11 +35,4 @@
   <user username="admin" password="<must-be-changed>" roles="manager-gui"/>
   <user username="robot" password="<must-be-changed>" roles="manager-script"/>
 -->
-<!--
-  The sample user and role entries below are intended for use with the
-  examples web application. They are wrapped in a comment and thus are ignored
-  when reading this file. If you wish to configure these users for use with the
-  examples web application, do not forget to remove the <!.. ..> that surrounds
-  them. You will also need to set the passwords to something appropriate.
--->
 </tomcat-users>
