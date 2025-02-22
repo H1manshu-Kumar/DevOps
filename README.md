@@ -1,6 +1,8 @@
 # DevOps Repository
 
-Welcome to the DevOps Repository! This project encompasses a collection of resources, scripts, and configurations aimed at streamlining and automating various DevOps processes.
+Welcome to the DevOps Repository! This project is a collection of resources, scripts, and configurations aimed at streamlining and automating various DevOps processes.
+
+This repository is created to learn DevOps through hands-on practice. I will continuously add code that I've learned throughout my DevOps journey.
 
 ## Table of Contents
 
