@@ -1,0 +1,25 @@
+#Stage 1 (where we have a slim python image with linux distribution)
+
+FROM python:3.9-slim AS builder
+
+WORKDIR /app
+
+COPY . .
+
+RUN pip install -r requirements.txt --target=/app/deps
+
+#Stage 2 (where we will have just the code and the code dependencies without linux distribution and unwnated files)
+
+FROM gcr.io/distroless/python3-debian12
+
+WORKDIR /app
+
+COPY --from=builder /app/deps /app/deps
+COPY --from=builder /app .
+
+ENV PYTHONPATH="/app/deps"
+
+EXPOSE 80
+
+CMD ["run.py"]
+
