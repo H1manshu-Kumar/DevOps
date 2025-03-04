@@ -1,1 +1,0 @@
-print("Hello, World! I am inside the Docker container. This message indicates that everything is functioning correctly and Docker is up and running")
