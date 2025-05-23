@@ -1,10 +1,17 @@
+# Specifies the API version used for this Kubernetes object
 apiVersion: v1
+
+# Declares the type of Kubernetes object; in this case, a Pod
 kind: Pod
+
+# Metadata about the Pod, such as its name
 metadata:
-  name: nginx
+  name: nginx  # Name of the Pod
+
+# Specification of the desired behavior of the Pod
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
+  - name: nginx  # Name of the container within the Pod
+    image: nginx:1.14.2  # Docker image to use for this container
     ports:
-    - containerPort: 80
+    - containerPort: 80  # Port to expose from the container
