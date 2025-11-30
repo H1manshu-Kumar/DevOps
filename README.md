@@ -16,8 +16,7 @@ A collection of projects, scripts, and configurations built throughout my DevOps
 
 ## Purpose
 
-This repository serves as a practical sandbox for learning and experimenting with DevOps tools and methodologies, such as CI/CD, containerization, orchestration, IaC, and automation.
-
+This repository serves as a practical sandbox for learning and experimenting with DevOps tools and methodologies, such as CI/CD, containerization, orchestration, and automation.
 ## Getting Started
 
 1. Choose a project folder that matches what you want to learn (e.g., Docker, Kubernetes, Terraform).
