@@ -5,7 +5,7 @@ A collection of projects, scripts, and configurations built throughout my DevOps
 ## Contents
 
 - **.github/workflows/** – CI/CD workflow templates and GitHub Action workflows  
-- **Greetings-App-Realtime/** – Real-time application setup (e.g., WebSockets, message queues)  
+- **Greetings-App-Realtime/** – Real-time application setup
 - **Java_EndToEnd_Project/** – Full-stack Java application with end-to-end features  
 - **Kickstart_Jenkins_Project/** – Jenkins pipeline projects, setup, and configurations  
 - **Kubernetes_Project/Pods/** – Kubernetes pod definitions and sample deployments  
