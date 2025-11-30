@@ -10,7 +10,7 @@ A collection of projects, scripts, and configurations built throughout my DevOps
 - **Kickstart_Jenkins_Project/** – Jenkins pipeline projects, setup, and configurations  
 - **Kubernetes_Project/Pods/** – Kubernetes pod definitions and sample deployments  
 - **ShellScriptProjects/** – Shell scripts to automate common tasks  
-- **Terraform_First_project/aws/local_state/** – Terraform infrastructure-as-code example on AWS (local state)  
+- **Terraform_First_project/aws/local_state/** – Terraform infrastructure-as-code example on AWS
 - **ansible_project/** – Ansible playbooks and configurations for automation  
 - **docker_fundamental/** – Docker basics: Dockerfiles, images, and container workflows
 
